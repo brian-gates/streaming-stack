@@ -1,5 +1,5 @@
 {
-  "name": "app-kit",
+  "name": "stream-demo",
   "namespace": "appkit",
   "APIMethod": "stub",
   "proxyURL": "http://localhost:8000",
@@ -7,8 +7,7 @@
   "version": "0.0.0",
   "private": true,
   "directories": {
-    "doc": "doc",
-    "test": "test"
+    "test": "tests"
   },
   "scripts": {
     "start": "grunt server",
@@ -20,8 +19,8 @@
     "type": "git",
     "url": "git://github.com/stefanpenner/ember-app-kit.git"
   },
-  "author": "",
-  "license": "MIT",
+  "author": "Brian Gates",
+  "license": "BSD",
   "devDependencies": {
     "express": "~3.4.8",
     "lockfile": "~0.4.2",
@@ -54,5 +53,20 @@
   "dependencies": {
     "cypher-stream": "~0.1.1",
     "JSONStream": "~0.8.0"
-  }
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "c6f9ab5a5a3b5659603f9275f10742d5b70239fc",
+  "description": "Ember App Kit aims to be the foundation for ambitious web applications built with Ember. It's intended to be used either on its own or as the base scaffolding for projects using [Ember Tools](https://github.com/rpflorence/ember-tools), [generator-ember](https://github.com/yeoman/generator-ember) and a hypothetical official [executable](https://github.com/stefanpenner/ember-cli) at some point in the future.",
+  "main": "Gruntfile.js",
+  "keywords": [
+    "stream",
+    "json",
+    "ember",
+    "neo4j",
+    "cypher",
+    "oboe"
+  ]
 }
