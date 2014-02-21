@@ -1,25 +1,34 @@
 # Streaming Stack
 
-Simple example of a node stack that streams from database to client.
+Simple example of an ember/node stack that streams from database to client.
+
+Why?  [http://oboejs.com/why](http://oboejs.com/why)
 
 ## Running it
 
-Clone it.
+### Clone it
 
-Install dependencies.
+### Install dependencies
 
 ```
 npm install
 ```
 
-Run it.
+### Prepare the database
+Make sure you have [Neo4j](http://www.neo4j.org/) running locally on port 7474.
+
+Populate the database with :Test nodes with a name property.
+```
+node populate_data 10000
+```
+
+### Run it.
 
 ```
 grunt server
 ```
 Visit [http://localhost:8000/](http://localhost:8000/)
 
-Make sure you have [Neo4j](http://www.neo4j.org/) running locally on port 7474.
 
 ## Notable features
 
