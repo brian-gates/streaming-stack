@@ -1,5 +1,10 @@
-<h2 id='title'>Streaming Data Example</h2>
-{{model.length}} results
-{{#collection Ember.ListView contentBinding="controller" height=300 rowHeight=20 width=300}}
-  {{this.name}}
-{{/collection}}
+<h1 id='title'>Streaming Data Example</h1>
+
+<div class="stream">
+  <button {{action 'streamData'}}>Stream it!</button>
+  <button {{action 'loadData'}}>Ajax it.</button>
+  <p>{{model.length}} results</p>
+  {{#collection Ember.ListView contentBinding="controller" height=300 rowHeight=20 width=300}}
+    {{this.test.name}}
+  {{/collection}}
+</div>
