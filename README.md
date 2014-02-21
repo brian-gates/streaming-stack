@@ -8,6 +8,10 @@ Why?  [http://oboejs.com/why](http://oboejs.com/why)
 
 ### Clone it
 
+```
+git clone https://github.com/brian-gates/streaming-stack.git
+```
+
 ### Install dependencies
 
 ```
