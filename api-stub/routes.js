@@ -6,7 +6,7 @@ module.exports = function(server) {
   // have to be repeated for each end point.
 	server.namespace('/api', function() {
 		server.get('/stream', function(req, res) {
-			cypher('match (test:Lens) return test')
+			cypher('match (test:Test) return test')
 				.pipe(JSONStream.stringify())
 				.pipe(res);
 		});
